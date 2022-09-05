@@ -1,0 +1,49 @@
+@import "./base.css";
+
+#header {
+    background-color: rgb(13, 24, 31);
+    border-radius: 19px;
+    padding: 50px;
+    max-width: 1030px;
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(138, 21, 21);
+}
+.value-select {
+    display: grid;
+    margin-top: 20px;
+}
+input, select {
+    height: 25px;
+    padding-left: 5px;
+}
+span{
+    margin-left: 10px;
+}
+h1 {
+    color: #e0d5d5;
+}
+label{
+    font-size: 1.2em;
+    color: #e0d5d5;
+}
+.result {
+    background-color: #0c0d1a;
+    display: flex;
+    margin-top: 40px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #e0d5d5;
+}
